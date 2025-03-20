@@ -132,4 +132,5 @@ si la variable existe en memoria tenemos un valor por defecto
 #enunciado=false
 #print(not enunciado)
 
-usuario_logueado=True
+#usuario_logueado=True
+
