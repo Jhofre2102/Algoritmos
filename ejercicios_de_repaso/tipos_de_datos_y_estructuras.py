@@ -128,7 +128,7 @@ numero, letras o incluso otras listas
 '''
 
 lista1=[8,9,7,5,4,10]
-print(type(lista1))
+#print(type(lista1))
 
 lista2=["jhon", "alejandro","lewin"],["juan"]
 
@@ -141,19 +141,66 @@ lista2=["jhon", "alejandro","lewin"],["juan"]
 #reverse
 
 #print(lista1.reverse)
-lista1.append("20")
-print(lista1)
+#lista1.append("20")
+#print(lista1)
 
-listab=lista1.sort()
+#listab=lista1.sort()
 
 #print(listab)
 #remov
 # 
 
-lista1.remove(7)
+#lista1.remove(7)
 #print(lista1)
 
 
-lista2=["jhon", "alejandro","lewin"],["juan"]
-print(lista2[0[1]])
+#lista2=["jhon", "alejandro","lewin"],["juan"]
+#print(lista2[0[1]])
+
+'''    
+Diccionarios
+<class 'dict'>
+
+{
+    'clave':'valor,'clave2'
+}
+'''
+
+
+estudiantes={
+
+    'diana':25,
+    'juan':20,
+    'ana':29,
+    'luisa:15'
+}
+
+print(type(estudiantes))
+
+print(estudiantes.keys())
+print(estudiantes.values())
+
+
+#diccionarios involucren otras estructuras
+
+instituto={
+
+    'robotica':["diana", "juan", "pedro"],
+    'programacion':["andres", "luis","miguel"]
+}
+
+print(instituto.values())
+
+colegio={
+
+'quimica':{"luisa":15, "jose":14},
+    'fisica':{"lina":14, "jose":14}
+}
+
+print(colegio.values())
+
+#actualizar el diccionario agregando una nueva clave
+estudiantes.update['luisa']=45
+print(estudiantes)
+
 
